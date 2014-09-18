@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="../Script/Libs/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="../Script/Libs/jquery.livequery.js"></script>
+		<script type="text/javascript" src="../Script/Libs/knockout-3.1.0.js"></script>
+		<script type="text/javascript" src="../Script/Libs/knockout.mapping.js"></script>
+		<script type="text/javascript" src="../Script/Libs/pagination.js"></script>
+		<script type="text/javascript" src="../Script/Libs/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../Script/Libs/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript" src="../Script/Libs/knockout.multimodels-0.1.min.js"></script>
+		<link rel="stylesheet" href="../Content/Nav/sidebar-style.css" />
+		<link rel="stylesheet" href="../Content/Nav/Nav.css" />
+	</head>
+	<body>
+		<script type = "text/html" id = "left_fun_Nav">
+			<li>
+				<a data-bind = "attr : { href : link }, text : name"></a>
+			</li>
+		</script>
+		<!-- MainForm -->
+		<input type="checkbox" id="sidebartoggler" name="" value="">
+		<div data-bind = "css : { 'page-wrap' : 'true'}">
+			
+			<label for="sidebartoggler" data-bind = "css : { 'toggle' : 'true'}">☰</label>
+			
+			<div data-bind = "css : { 'page-content' : 'true'}">
+				<div data-bind = "css: { 'unit' : 'true'}">1</div>
+				<div data-bind = "css: { 'unit' : 'true'}" data-bind = "visible: false">2</div>
+				<div data-bind = "css: { 'unit' : 'true'}" data-bind = "visible: false">3</div>
+				
+			</div>
+			
+			<div data-bind = "with: ViewModel.NavInfoList , css : { 'sidebar' : 'true'}">
+				<ul data-bind = "template: { name : 'left_fun_Nav', foreach : navList }">
+				</ul>
+			</div>
+		</div>
+		<!-- /MainForm -->
+		<!-- 脚本文件 -->
+		<script type="text/javascript" src="../Script/viewmodel/ViewModel.js"></script>
+		<script type="text/javascript" src="../Script/models/File/SpeakerFile.js"></script>
+		<script type="text/javascript" src="../Script/models/File/VideoFile.js"></script>
+		<script type="text/javascript" src="../Script/models/FunNavModel/NavList.js"></script>
+		<!-- /脚本文件 -->
+	</body>
+</html>
