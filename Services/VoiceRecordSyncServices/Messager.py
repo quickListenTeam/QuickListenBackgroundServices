@@ -7,12 +7,12 @@ import time
 
 
 class MessageProducer:
-    def ParallelSend(self, options):
-        connection = stomp.Connection(host_and_ports = [(options.host, options.port)])
+    def ParallelSend(self, message, options):
+        connection = stomp.Connection(host_and_ports = [(options.queuehost, options.queueport)])
         try:
             connection.start()
             connection.connect()
-            connection.send(options.message, destination = options.destination)
+            connection.send(message, destination = options.indest)
         finally:
             connection.disconnect()
 
@@ -26,12 +26,12 @@ class MessageConsumer(object):
         print '=> Received an message %s', message
 
     def Listen(self, options):
-        connection = stomp.Connection(host_and_ports = [(options.host, options.port)])
+        connection = stomp.Connection(host_and_ports = [(options.queuehost, options.queueport)])
         try:
             connection.set_listener('', MessageConsumer())
             connection.start()
             connection.connect(wait = True)
-            connection.subscribe(destination = options.destination, id = 1, ack = 'auto',
+            connection.subscribe(destination = options.outdest, id = 1, ack = 'auto',
                                  headers = {'selector': "flag='1'", 'transformation': 'jms-json'})
             while True:
                 time.sleep(60)
