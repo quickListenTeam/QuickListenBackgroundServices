@@ -1,0 +1,226 @@
+/*-------------------------------------------------- 
+ * Name:修改插件样式
+ * Explain:修改系统所用插件样式
+ * Autor:xypan@ifytek.com
+ * Time:2013-11-11
+----------------------------------------------------*/
+/*---------------------- jart样式修改 ---------------------------*/
+
+.jartplugin .x-textbox-empty{
+	padding-left:5px;
+	padding-top:3px;
+	font:normal 14px "微软雅黑";
+}
+.jartplugin .x-textbox{
+	font:normal 14px "微软雅黑";
+	line-height:25px;
+}
+.jartplugin .x-combobox-picker{
+	background:url(../images/combobox_allower.png) 0px no-repeat;
+}
+.jartplugin .x-combobox  .x-combobox-picker {  background:url(../images/combobox_allower.png) 0px no-repeat; }
+
+/*----------- tree样式修改 ------------*/
+span.x-tree-folder-expanded,span.x-tree-folder,
+span.x-tree-leaf{
+	background: transparent url(../images/organization.png) no-repeat;
+}
+.x-tree-node-wrap .x-tree-node-wrap .x-tree-folder-expanded,
+.x-tree-node-wrap .x-tree-node-wrap .x-tree-leaf,
+.x-tree-node-wrap .x-tree-node-wrap .x-tree-folder{
+	background: transparent url(../images/department.png) no-repeat;
+}
+.x-tree-node-wrap .x-tree-node-wrap .x-tree-node-wrap .x-tree-leaf{
+	background: transparent url(../images/person.png) no-repeat;
+}
+div.x-tree-hover,div.x-tree-selected{
+	background:#CBDEFF;
+}
+.x-ds .x-ds-day{ text-align:center; }
+.x-ds-top .x-textbox{
+	background:transparent;
+	border:solid 1px transparent;
+	color:#FFF;
+}
+.x-ds-top .x-textbox-hover .x-textbox{
+	border:solid 1px transparent;
+}
+/*----------- end tree样式修改 ------------*/
+
+.jart-table-fixed { 
+	margin:0;
+    border:0;
+    font:normal 12px "微软雅黑";
+    color:#333;
+    border-collapse:collapse;
+    border-spacing:0;  
+}
+.jart-table-fixed td{padding:0;}
+div.x-border{
+	border:none;
+	border-left:solid 1px #CFCFCF;
+}
+.jart-table-fixed div.jart-word-nowrap { font:normal 12px "微软雅黑" ; }
+.jart-table-fixed th {
+    height:28px;
+    background:#F8F8F8;
+    border-top:solid 2px #696969;
+}
+.jart-table-fixed td.x-grid-list-td {
+    height:28px;
+    border:none;
+    border-right:solid 1px #DDDDDD;
+    border-bottom:solid 1px #DDDDDD;
+}
+.jart-table-fixed span.x-combobox input.x-pager-num-input {
+    padding-left:2px;
+    width:32px;
+}
+.jart-table-fixed .x-grid-list-row-even td { background:#FFFFFF; }
+.jart-table-fixed .x-grid-list-row {  cursor:pointer; }
+.language_manager_wrap .jart-table-fixed .x-grid-list-row,
+.importantcall .jart-table-fixed .x-grid-list-row ,
+.step3_content .jart-table-fixed .x-grid-list-row ,
+.step4_content .jart-table-fixed .x-grid-list-row{  
+	cursor:default; 
+}
+.jart-table-fixed th.x-grid-head-th{ border-bottom:solid 1px #DDDDDD}
+.jart-table-fixed td.x-grid-list-td-empty{ 
+	height:40px;
+	border-right:solid 1px #CFCFCF;
+	font:bold 14px "微软雅黑";
+	color:#f48e06;
+}
+.x-combobox .x-combobox-picker {  background:url(../images/grid_page_allower.png) 5px 50% no-repeat; }
+table.jart-table-fixed tr.x-grid-list-row-even td {  background:#F2F2F2; }
+table.jart-table-fixed tr.x-grid-list-row-selected td{ background:#ffdeca; }
+div.x-pager {
+	height:28px;
+	padding-left:5px;
+    background:#F2F2F2;
+    border-bottom:solid 1px #E4E4E4;
+    border-right:solid 1px #CFCFCF;
+}
+div.x-pager table{
+	margin-top:3px;
+	line-height:20px;
+}
+div.x-pager .show_total{
+	padding-top:5px;
+}
+.x-pager .x-pager-btn-first {  background:url(../images/x-pager-btn-first.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-first:hover{ background:url(../images/x-pager-btn-first_hover.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-prev { background:url(../images/x-pager-btn-prev.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-prev:hover { background:url(../images/x-pager-btn-prev_hover.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-next { background:url(../images/x-pager-btn-next.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-next:hover { background:url(../images/x-pager-btn-next_hover.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-last { background:url(../images/x-pager-btn-last.png) 50% 50% no-repeat; }
+.x-pager .x-pager-btn-last:hover { background:url(../images/x-pager-btn-last_hover.png) 50% 50% no-repeat; }
+.x-pager input.x-pager-num-input { 
+	width:30px; 
+	height:16px;
+	line-height:16px;
+}
+.x-combobox input.x-textbox-empty{ line-height:25px; }
+.x-pager .x-pager-btn-load { display:none;}
+.x-pager span { font:normal 12px "微软雅黑";}
+
+.x-combobox input.x-textbox,input.x-textbox{ 
+	padding-left:5px;
+    border:solid 1px #C0C0C0;
+}
+input.x-textbox-invalid{ border: solid 1px #ef8383; }
+.x-textbox-hover input.x-textbox ,.x-textbox-focus input.x-textbox,
+.x-textbox-hover textarea.x-textarea ,.x-textbox-focus textarea.x-textarea {
+    padding:1px;
+    padding-left:5px;
+  	border:solid 1px #47B9FF;
+}
+.x-drop-list .x-drop-item { 
+    text-indent:5px;
+    font-family:"微软雅黑";
+}
+#grid_pager_art_element_3 input.x-pager-num-input { border-color:#C0C0C0; }
+.x-pager input.x-pager-num-input { border-color:#C0C0C0; }
+.x-combobox .x-textbox { font-family:"微软雅黑"; }
+.jart-table-fixed .jart-word-break { 
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.jart-table-fixed a{
+	font: normal 12px "微软雅黑";
+	color: #333;
+	text-decoration: underline;
+} 
+.jart-table-fixed .x-grid-head{
+	background:none;
+}
+.x-datetimer .x-textbox{ font: normal 14px "微软雅黑"; }
+
+.jart-table-fixed .x-grid-list-td-empty { padding-left:30px; }
+.x-combobox .x-textbox-invalid{
+	background:none;
+}
+.x-combobox .x-textbox-empty{
+	font:normal 14px "微软雅黑"; 
+	color:#808080;
+}
+/*---------------------------------- checkbox ---------------------------------------*/
+/*页面加载样式*/
+#chklist,#radiolist {
+	padding:10px; 	
+	font-size:14px;
+}
+.hcheckbox {
+	display: inline-block;
+	padding-left: 24px;	
+	background: url(../images/simulate_checkbox.png) no-repeat left 3px;	
+	height: 21px;
+	line-height: 22px;
+	cursor: pointer;
+}
+.hcheckbox_checked { background-position: left 100%; }
+.hcheckbox_disabled, .hradio_disabled {
+	background-position: left 0px;
+	color:#808080;
+	cursor:default;
+}
+/*控件样式，根据实际需求调整END*/
+
+/*---------------------------------- fancybox弹出层样式修改 ---------------------------------------*/
+.fancybox-title{
+	padding-top:0px;
+	padding-left:20px;
+	height:35px;
+	background:#3D98E9;
+	font:bold 14px "微软雅黑";
+	color:#fff;
+	line-height:35px;
+}
+.fancybox-close{
+	top:10px;
+	right:12px;
+	width:15px;
+	height:15px;
+	z-index:9000;
+}
+.fancybox-close, .fancybox-prev span, .fancybox-next span{
+	background-image: url(../images/jueryui_new_close_btn.png);
+}
+.fancybox-close:hover, .fancybox-prev span:hover, .fancybox-next span:hover{
+	background-image: url(../images/jueryui_new_close_btn_hover.png);
+}
+.fancybox-lock .fancybox-overlay{
+	overflow:hidden;
+}
+
+div.fancybox-overlay{
+	z-index: 99999;
+}
+div.x-ds-top{
+	margin-top:-2px;
+}
+.jart-table-fixed .jart-word-break{
+	word-wrap:normal;
+}

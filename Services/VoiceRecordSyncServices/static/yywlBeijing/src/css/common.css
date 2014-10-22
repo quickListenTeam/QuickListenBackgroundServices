@@ -1,0 +1,626 @@
+/*-------------------------------------------------- 
+ * Name:公用样式库
+ * Explain:包含各个页面公用样式
+ * Autor：xypan@ifytek.com
+ * Time:2013-11-11
+----------------------------------------------------*/
+/*--------------------------------- 基本的样式定义---------------------------------*/ 
+*{
+	-webkit-text-size-adjust: none;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, blockquote, img, th, td {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+ol, ul { list-style: none;}
+.ell {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+body {
+    background: #FFFFFF;
+}
+a {
+/*	blr:expression(this.onFocus=this.blur());*/
+	outline:none;
+}
+
+.clear { clear: both; }
+.hidden { display:none; }
+.mt10{ margin-top:10px; }
+.mt15{ margin-top:15px; }
+.mt10{ margin-top:10px; }
+.mt20{ margin-top:20px; }
+.mt30{ margin-top:30px; }
+.mt50{ margin-top:50px; }
+.ml10{ margin-left:10px; }
+.ml20{ margin-left:20px; }
+.ml30{ margin-left:30px; }
+.ml50{ margin-left:50px; }
+.mr10{ margin-right:10px; }
+.mr20{ margin-right:20px; }
+.mr30{ margin-right:30px; }
+.mr40{ margin-right:40px; }
+.mr50{ margin-right:50px; }
+.mr60{ margin-right:60px; }
+.mb10{ margin-bottom:10px; }
+.positionrel { position:relative; }
+.positionabs { position:absolute; }
+.pointer{ cursor:pointer; }
+.disinlineblock{ display:inline-block; }
+.tipbg{ background:#FFFDC6; }
+.font{ font:normal 12px "微软雅黑"; }
+/*--------------------------------- 头部导航栏样式 ---------------------------------*/ 
+.iframeclass{
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:100%;
+	height:100%;
+}
+.layout_header{
+	width:100%;
+	height:90px;
+	border-bottom:solid 1px #D8D3CF;
+}
+.layout_links{
+	padding-left:48px;
+	height:50px;
+	background:#3B96E7 url(../images/48.png) 30px 50% no-repeat ;
+}
+.headername,
+.funlinks{
+	height:50px;
+	text-align:right;
+}
+.headername {
+   float:left;
+   width:180px;
+   line-height:50px;
+}
+.homelink{
+	font:bold 22px "微软雅黑"; 
+	cursor:default;
+}
+
+.funlinks{
+	float:right;
+	color:#fff;
+}
+.funlinks p{
+	height:25px;
+	line-height:25px;
+	text-align:right;
+}
+.funbutton span{
+	margin:0px 10px;
+}
+.usericon{
+    margin:0px 5px -5px 0px;
+    display:inline-block;
+    width:17px;
+    height:18px;
+    background:url(../images/user_head_pic.png) no-repeat;
+}
+/* 菜单 */
+.menulist li{
+	float:left;
+}
+.menulist a{
+	padding:0px 15px;
+	display:inline-block;
+	height:40px;
+	font-size:14px;
+	line-height:40px;
+	color:#606060;
+	outline:none;
+}
+.menulist a:hover,
+.menuselected{
+	background:#66B1F5;
+	color:#FFF;
+	
+}
+.menuselected a{
+	color:#FFF;
+}
+/* 历史复查 */
+.hismenu{
+	position: relative;
+}
+.hismenu .cmenu{
+	display:none;
+	position: absolute;
+	top:40px;
+	left:0px;
+	border:solid 1px #66B1F5;
+	border-top:none;
+}
+.hismenu:hover a{
+	background:#66B1F5 url(../images/menuarrow.png) 96% 55% no-repeat;
+	color:#FFF;
+}
+.hismenu:hover .cmenu a{
+	background:#FFFFFF;
+	color:#66B1F5;
+}
+.hismenu:hover .cmenu{
+	display:block;	
+}
+.hismenu:hover .cmenu li{
+	display:block;
+	float:left;
+	border-top:solid 1px #66B1F5;
+}
+.hismenu:hover .cmenu a{
+	padding: 0px 14px;
+}
+.hismenu:hover .cmenu a:hover{
+	background:#66B1F5;
+	color:#FFF;
+}
+
+/*.menulist a{
+	color:#000000;
+}*/
+/*---------------------------------------------- 弹出层按钮样式 ---- ---------------------------------*/
+.pop_button{
+	margin:0px 20px;
+	display:inline-block;
+	width:100px;
+	height:35px;
+	background: #3F67BF;
+	font:normal 16px "微软雅黑";
+	color:#FFF;
+	text-align:center;
+	line-height:35px;
+	cursor:pointer;
+	word-spacing: 15px;
+}
+.pop_button:hover{ 
+	background: #47B9FF; 
+}
+.pop_cancel{ 
+	background: #B3B3B3;
+}
+.pop_cancel:hover{
+	background:#8C8B8B;
+}
+.popbuttonwrap{
+	position:absolute;
+    bottom:0px;
+    width:100%;
+    height:50px;
+	/*    background:#EBEBEB;*/
+	border-top:solid 1px #D9D9D9;
+    text-align:center;
+    line-height:50px;
+}
+
+/* loading */
+.loading_wrap{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background: url(../images/shade.png) ;
+	z-index:9999;
+}
+.loading_wrap .gridloadingwrap{
+	margin-left:-22px;
+	margin-top:-22px;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+.gridloadingwrap{
+	display: inline-block;
+	background-position: 0 -108px;
+	background-image: url(../script/fancybox/fancybox_sprite.png);
+}
+.gridloading{
+	display: inline-block;
+	width:44px;
+	height:44px;
+	background:url(../script/fancybox/fancybox_loading.gif)  50% 50% no-repeat;	
+}
+/* 弹出层头部遮罩 */
+.popshade,
+.menushade,
+.tipshade{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: url(../images/shade.png) ;
+	z-index: 9999;
+}
+.popshade,
+.tipshade{
+	height: 35px;
+}
+.menushade{
+	height:91px;
+}
+
+/*---------------------------------  确定和取消按钮样式  ---------------------------------*/ 
+
+.next_prev_step { /* 上一步和下一步按钮样式 */
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:55px;
+    width:775px;
+    background:#EBEBEB;
+}
+.next_prev_step span{
+    display:block;
+    float:left;
+    width:387px;
+    height:55px;
+    font:normal 18px "微软雅黑";
+    color:#000;
+    text-align:center;
+    line-height:55px;
+    cursor:pointer;
+}
+.next_prev_step span:hover{ background:#C7C7C7; }
+span.prev_step { border-left:solid 1px #B0B0B0; }
+
+.step_title{ /** 新建对象表头样式 **/
+    width:737px;
+    height: 45px; 
+}
+.step_title span{
+    margin-left:20px;
+    display: inline-block;
+    width: 737px;
+    height: 45px;
+}
+.step1 {  background: url(../images/step1_bg.png) no-repeat; }
+.step2{  background: url(../images/step2_bg.png) no-repeat; }
+.step3{ background: url(../images/step3_bg.png) no-repeat; }
+.step4{ background: url(../images/step4_bg.png) no-repeat; }
+
+#ui_dialog_title_shade { /* 解决iframe中嵌套dialog头部无法遮罩 */
+    width:100%;
+    height:52px;
+    position:absolute;
+    top:0px;
+    background: #666666 url(../images/dialog_front_bg.png) 50% 50% repeat;
+    opacity: 0.8 ;
+    filter:alpha(opacity=80);
+    z-index:1000;
+}
+
+.division_line { /* 分割线 */
+    height:0px;
+    border-top:dashed 1px #E5E5E5;
+}
+
+/* 时间控件清除按钮 */
+div.datepickerContainer table {
+    background:#121212;
+}
+.date_picker_wrap_wrap {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 96px;
+    height: 25px;
+}
+.date_picker_wrap  span.date_separator { 
+    display: inline-block;
+    position: absolute;
+    left: 88px;
+    top: 5px;
+    color:#C0C0C0;
+}
+.date_picker_wrap {
+    float: left;
+    position: relative;
+    width: 125px;
+    height: 28px;
+    cursor: pointer;
+}
+.range_timer {
+    width: 185px;
+}
+.range_timer input.pickedtime {
+    width: 150px;
+}
+#widget{
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    overflow: hidden;
+    height: 0px;
+    z-index: 10000;
+}
+tbody.datepickerDays td.datepickerSelected {
+    background: #136A9F;
+}
+input.pickedtime {
+    position: absolute;
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    background: none;
+    font:normal 12px "微软雅黑";
+}
+input.pickedtime:hover{ border:solid 1px #47B9FF; }
+div.datepicker th {
+    color: #fff;
+}
+span.picker_btn {
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    display: inline-block;
+    width: 21px;
+    height: 28px;
+    background: url(../images/datepicker_icon.png) 50% 50% no-repeat;
+}
+span.picker_btn:hover{
+     background: url(../images/datepicker_icon_hover.png) 50% 50% no-repeat;
+}
+
+.modify_password_pop label{ /* 修改密码弹出层样式 */ 
+    color:#FF2727;
+}
+.modify_password_pop table { 
+    font:normal 14px "微软雅黑";
+    color:#333333;
+}
+#modify_password_pop .tip{
+	padding-left:10px;
+	height:30px;
+	font:bold 14px "微软雅黑" ;
+	color:#FF0000;
+	line-height:30px;
+}
+.modify_password_pop td.title { 
+    padding-right:25px;
+    width:123px;
+    height:45px;
+    text-align:right;
+}
+.modify_password_pop input { 
+    border:solid 1px #C8C8C8;
+    text-indent:5px;
+}
+#current_password:hover,#new_password:hover,#sure_new_password:hover{
+    border:solid 1px #47B9FF;
+}
+
+/* 系统警告弹出层样式 */
+#systemcommonalert { 
+    position:relative;
+    font:normal 16px "微软雅黑";
+}
+.systemalert { 
+	height:120px;
+    text-align:center;
+    line-height:40px;
+}
+.btn_wrap { 
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:45px;
+    background:#EDEDED;
+    font-size:18px;
+    text-align:center;
+    line-height:45px;
+    cursor:pointer;
+}
+.btn_wrap:hover{
+    background:#C7C7C7;
+}
+
+.field_selector_wrap { /* 字段选择器 */ 
+    width:375px;
+    height:290px;
+}
+.field_selector_content { 
+    margin:15px;
+    width:345px;
+    height:255px;
+    border:solid 1px #B5B5B5;
+    border-bottom:solid 1px #DCDCDC;
+}
+.field_selector_content .content{
+	float:left;
+	width:150px;
+}
+.field_selector_content p{
+    padding-left: 18px;
+    height:24px;
+    background:#D2D2D2;
+    font:bold 12px "微软雅黑";
+    line-height:24px;
+}
+div.parting_line { 
+    width:1px;
+    height:100%;
+    background:#A0A0A0;
+}
+.show_line_area, .hidden_line_area,.parting_line{
+    float:left; 
+    width:172px;
+    height:242px
+}
+ul.show_line_items,ul.hidden_line_items { 
+    float:left;
+    display:block;
+    width:163px;
+    height:215px;
+}
+
+.field_selector_content li { 
+    width:155px;
+    height:24px;
+}
+.field_selector_content span { 
+    display:inline-block;
+    float:left;
+    height:24px;
+    font:normal 12px "微软雅黑";
+    line-height:24px;
+    cursor:pointer;
+}
+span.mover_up { 
+    margin:0px 6px;
+    width:6px;
+    background:url(../images/move_up_btn.png) 50% 50% no-repeat;
+}
+span.perch { 
+    margin:0px 6px;
+    width:6px;
+}
+span.mover_up:hover{ background:url(../images/move_up_btn_hover.png) 50% 50% no-repeat; }
+span.minus_item,span.plus_item{ 
+    margin-left: 3px;
+    width:8px;
+}
+span.minus_item { background:url(../images/minus_item_btn.png) 50% 50% no-repeat; }
+span.minus_item:hover{ background:url(../images/minus_item_btn_hover.png) 50% 50% no-repeat;  }
+span.plus_item { background:url(../images/plus_item_btn.png) 50% 50% no-repeat; }
+span.plus_item:hover { background:url(../images/plus_item_btn_hover.png) 50% 50% no-repeat; }
+span.field_name { 
+    width:124px;
+    cursor:default;
+}
+
+/* 设置滚动条 */
+.field_selector_content .box { 
+	overflow-x:hidden;
+	overflow-y:auto;
+    width:172px;
+    height:230px;
+}
+#scrollbar1 { 
+    height: 100%;
+    float: left;
+}
+/*.x-scrollbar-vertical div.x-scrollbar-rightarrow {  background:url(../scroll_bar_toparrow.gif) no-repeat; }*/
+
+.jart_combox .x-combobox .x-combobox-picker {  /* jart combox */
+	background:url(../images/combobox_allower.png) 50% 50% no-repeat; 
+}
+
+/* fancybox 弹出层样式 */
+#fancyboxpop{
+	font:normal 15px "微软雅黑";
+}
+#fancyboxpop p{
+	padding-top:9px;
+	height:45px;
+/*	background:#EBEBEB;*/
+	border-top:solid 1px #DDDDDD;
+	text-align:center;
+}
+#fancyboxpop .msg{
+	width:100%;
+	height:85px;
+	background:#fff;
+	word-break: break-all;
+}
+
+.poptop,
+.menutop{
+	padding:0px 15px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:#FFFDC6;
+	font:bold 14px "微软雅黑";
+	color:#FF0000;
+	text-align:center;
+}
+
+.poptop{  /* tip */
+	height:20px;
+	line-height:20px;
+}
+
+.menutop{  /* tip */
+	height:35px;
+	line-height:35px;
+}
+
+#recordtype{ /* 录制方式 */
+	padding:1px 10px;
+	display:inline-block;
+	height:15px;
+	line-height:15px;
+	border:solid 1px #C6CBCB;
+}
+#fileBtnUploader{
+	margin-left:10px;
+}
+.fieldselecorpop{
+	margin-left:-75px;
+	top:7px;
+	left:50%;
+	width:150px;
+}
+.popupwin{
+	position:absolute;
+	top:0px;
+	left:px;
+	width:100%;
+	height:100%;
+	background:#0B5FC2;
+}
+/*通话方向*/
+.arrowright,.arrowleft{
+	display:inline-block;
+	width:26px;
+	height:17px;
+}
+.arrowright{
+	background:url(../images/arrowright.png) 50% 50% no-repeat;
+}
+.arrowleft{
+	background:url(../images/arrowleft.png) 50% 50% no-repeat;
+}
+.underlinelink{
+	overflow: hidden;
+	padding-left:5px;
+	display:block;
+	/*width:100%;*/
+	text-decoration:underline;
+	cursor:pointer;
+	text-align:left;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.textleft{
+	padding-left:5px;
+	display: inline-block;
+	width: 100%;
+	text-align:left;
+}
+.layout_links{
+	position: relative;
+}
+.exitfuncshade,.iframeshade{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:red;
+	filter:alpha(opacity=0);  
+}
+.iframewrap{
+	width:100%;
+	height:100%;
+}

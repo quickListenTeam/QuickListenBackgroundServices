@@ -12,8 +12,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/VoiceRecordImport$VoiceRecordSyncServices.coverage" NAME="VoiceRecordSyncServices Coverage Results" MODIFIED="1411026024624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VoiceRecordImport$VoiceRecordSyncServices.coverage" NAME="VoiceRecordSyncServices Coverage Results" MODIFIED="1411893338670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VoiceRecordImport$testRichEnum.coverage" NAME="testRichEnum Coverage Results" MODIFIED="1410401987706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VoiceRecordImport$YYWLTest.coverage" NAME="YYWLTest Coverage Results" MODIFIED="1412766690383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VoiceRecordImport$FileParing.coverage" NAME="FileParing Coverage Results" MODIFIED="1410926480740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VoiceRecordImport$VoiceRecordEnum.coverage" NAME="VoiceRecordEnum Coverage Results" MODIFIED="1410407475327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VoiceRecordImport$test.coverage" NAME="test Coverage Results" MODIFIED="1410956897639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -39,10 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VoiceRecordSyncServices.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="VoiceRecordSyncServices.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VoiceRecordSyncServices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="59" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.4205298" vertical-offset="249" max-vertical-offset="1533">
+            <state line="56" column="32" selection-start="0" selection-end="2674" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1869">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YYWLTest.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YYWLTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="81" selection-start="1201" selection-end="1379" vertical-scroll-proportion="0.74172187" vertical-offset="273" max-vertical-offset="1827">
               <folding>
                 <element signature="e#43#57#0" expanded="true" />
               </folding>
@@ -50,22 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="options.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/tornado/options.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="508" column="4" selection-start="18468" selection-end="18468" vertical-scroll-proportion="0.0" vertical-offset="10581" max-vertical-offset="11487">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Messager.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Messager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="8" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="966">
-              <folding>
-                <element signature="e#43#55#0" expanded="true" />
-              </folding>
+            <state line="39" column="26" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1029">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +89,8 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Messager.py" />
         <option value="$PROJECT_DIR$/VoiceRecordSyncServices.py" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/YYWLTest.py" />
       </list>
     </option>
   </component>
@@ -133,156 +134,6 @@
               <option name="myItemId" value="VoiceRecordImport" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stompest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stompest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stompest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordImport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoiceRecordSyncServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -293,7 +144,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/Python27/python.exe" />
+    <property name="last_opened_file_path" value="E:/【WorkSpace】/【语音】/【语音应用保障】/Python Script" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -303,7 +154,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.VoiceRecordSyncServices">
+  <component name="RunManager" selected="Python.YYWLTest">
     <configuration default="false" name="FileParing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,25 +190,6 @@
       <module name="VoiceRecordImport" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VoiceRecordEnum.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testRichEnum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VoiceRecordImport" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testRichEnum.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -402,6 +234,25 @@
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YYWLTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VoiceRecordImport" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YYWLTest.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -558,17 +409,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.FileParing" />
       <item index="1" class="java.lang.String" itemvalue="Python.VoiceRecordEnum" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testRichEnum" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.VoiceRecordSyncServices" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.VoiceRecordSyncServices" />
+      <item index="4" class="java.lang.String" itemvalue="Python.YYWLTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.VoiceRecordSyncServices" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FileParing" />
-        <item index="3" class="java.lang.String" itemvalue="Python.VoiceRecordEnum" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testRichEnum" />
+        <item index="0" class="java.lang.String" itemvalue="Python.YYWLTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.VoiceRecordSyncServices" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.FileParing" />
+        <item index="4" class="java.lang.String" itemvalue="Python.VoiceRecordEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -599,18 +450,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="1" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32190266" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21570796" sideWeight="0.6741453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -644,54 +495,15 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/VoiceRecordSyncServices.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/VoiceRecordSyncServices.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/Messager.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VoiceRecordEnum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Python27/Lib/site-packages/pyrestful-0.3.2.alpha-py2.7.egg!/pyrestful/rest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="44" selection-start="2893" selection-end="2907" vertical-scroll-proportion="0.26203808" vertical-offset="1614" max-vertical-offset="5943" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Python27/Lib/site-packages/pyrestful-0.3.1.alpha-py2.7.egg!/pyrestful/rest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="40" selection-start="8009" selection-end="8017" vertical-scroll-proportion="0.6237402" vertical-offset="4315" max-vertical-offset="5208">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileParing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1073" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResAudio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="370" selection-end="370" vertical-scroll-proportion="0.41721854" vertical-offset="0" max-vertical-offset="906" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/tornado/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="37" selection-start="2578" selection-end="2589" vertical-scroll-proportion="0.2637969" vertical-offset="1126" max-vertical-offset="7476" />
@@ -719,37 +531,63 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/tornado/httputil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="464" column="6" selection-start="14756" selection-end="14756" vertical-scroll-proportion="0.33333334" vertical-offset="9169" max-vertical-offset="17577">
+        <state line="464" column="6" selection-start="14756" selection-end="14756" vertical-scroll-proportion="0.33333334" vertical-offset="9169" max-vertical-offset="17577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileParing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1073" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/tornado/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1575" column="55" selection-start="63445" selection-end="63473" vertical-scroll-proportion="0.47240618" vertical-offset="31954" max-vertical-offset="62979">
-          <folding />
-        </state>
+        <state line="1338" column="0" selection-start="53395" selection-end="53395" vertical-scroll-proportion="-1.1530782" vertical-offset="28098" max-vertical-offset="62979" />
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/tornado/options.py">
+    <entry file="file://C:/Python27/Lib/multiprocessing/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="4" selection-start="18468" selection-end="18468" vertical-scroll-proportion="0.0" vertical-offset="10581" max-vertical-offset="11487">
-          <folding />
-        </state>
+        <state line="105" column="0" selection-start="3171" selection-end="3171" vertical-scroll-proportion="-0.10482529" vertical-offset="2205" max-vertical-offset="6846" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="879" column="0" selection-start="30446" selection-end="30446" vertical-scroll-proportion="0.33208254" vertical-offset="18156" max-vertical-offset="29211" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Messager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="8" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="966">
-          <folding>
-            <element signature="e#43#55#0" expanded="true" />
-          </folding>
+        <state line="39" column="26" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="966">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="296" column="8" selection-start="10066" selection-end="10066" vertical-scroll-proportion="0.3327787" vertical-offset="5869" max-vertical-offset="15330" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.29450914" vertical-offset="1839" max-vertical-offset="11487" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VoiceRecordSyncServices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="59" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.4205298" vertical-offset="249" max-vertical-offset="1533">
+        <state line="56" column="32" selection-start="0" selection-end="2674" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1869">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="971" selection-end="971" vertical-scroll-proportion="0.4516129" vertical-offset="0" max-vertical-offset="567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YYWLTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="81" selection-start="1201" selection-end="1379" vertical-scroll-proportion="0.74172187" vertical-offset="273" max-vertical-offset="1827">
           <folding>
             <element signature="e#43#57#0" expanded="true" />
           </folding>
